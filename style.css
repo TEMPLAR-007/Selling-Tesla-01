@@ -16,14 +16,16 @@ h1{
 
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 
-.left-width{
+.para-width{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 3%;
 }
 .img-width{
     width: 50%;
+    padding-left: 3%;
 }
 .link-button{
     text-decoration: none;
@@ -36,4 +38,12 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.Model-S{
+
+    background-image: url(images/model-s-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
 }
