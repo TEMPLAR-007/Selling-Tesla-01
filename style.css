@@ -14,7 +14,7 @@ h1{
     color: lightsteelblue;
 }
 
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -29,11 +29,11 @@ section{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(rgba(255, 118, 76, 0.945),red);
-    color:whitesmoke;
+    color:red;
     font-weight:600;
-    padding: 10px 40px;
-    border-radius: 5px;
+    padding: 10px 20px;
+    border: 3px solid black;
+    border-radius: 50px;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -46,4 +46,35 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 
+}
+
+.Specs{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 3%;
+}
+
+.spec-item{
+    width: 50%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 5%;
+    box-shadow: 10px 10px 20px gray;
+    
+}
+
+#Model-S-Plaid-box{
+    border-left: 10px solid;
+    border-image: linear-gradient(red,lightsteelblue);
+    border-image-slice: 1;
+}
+
+#Model-S-box{
+    border-left: 10px solid;
+    border-image: linear-gradient(black,lightsteelblue);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
 }
